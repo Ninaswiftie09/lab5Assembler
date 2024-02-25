@@ -15,7 +15,7 @@ public class Conversiones {
         double mantisaa = 1.0;
         for (int i = 0; i < mantisa.length(); i++) {
             if (mantisa.charAt(i) == '1') {
-                mantisa += Math.pow(2, -(i + 1));
+                mantisaa += Math.pow(2, -(i + 1));
             }
         }
         double resultado = signo * mantisaa * Math.pow(2, exponentee);
